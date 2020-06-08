@@ -8,6 +8,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type';
 import page from './documents/page';
 import route from './documents/route';
 import siteConfig from './documents/siteConfig';
+import potato from './documents/potato';
 
 // Object types
 import cta from './objects/cta';
@@ -40,6 +41,7 @@ export default createSchema({
     mailchimp,
     page,
     portableText,
+    potato,
     route,
     simplePortableText,
     siteConfig,
